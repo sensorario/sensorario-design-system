@@ -1,6 +1,6 @@
 {
   "name": "sensorario-design-system",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A very very small collection of css and components for the React, TypeScript and Next.js book.",
   "main": "index.js",
   "scripts": {
