@@ -1,0 +1,14 @@
+{
+  "name": "sensorario-design-system",
+  "version": "1.0.9",
+  "description": "A very very small collection of css and components for the React, TypeScript and Next.js book.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "react": "^19.0.0-rc-cc1ec60d0d-20240607"
+  }
+}
