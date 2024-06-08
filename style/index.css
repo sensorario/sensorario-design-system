@@ -87,11 +87,11 @@ a {
     color: var(--color-link-light);
   }
   button {
-    background-color: #1a1a1a;
+    background-color: black;
     color: darkgray;
   }
   input {
-    background-color: #1a1a1a;
+    background-color: white;
   }
 }
 
@@ -100,7 +100,7 @@ a {
     color: var(--color-link--dark);
   }
   button {
-    background-color: darkgray;
+    background-color: yelloW;
     color: #1a1a1a;
   }
   input {
