@@ -17,7 +17,7 @@
   --background-dark: var(--color-darkgray);
 }
 
-.sensorario.container {
+.sensorario-container {
   width: 100%;
   position: absolute;
   top: 0;
