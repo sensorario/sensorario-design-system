@@ -22,6 +22,15 @@ h1 {
   font-size: var(--font-x);
 }
 
+button {
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px #795548;
+  border-width: 1px;
+  border-color: #000002;
+}
+
 .sensorario-container {
   width: 100%;
   position: absolute;
