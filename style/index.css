@@ -1,13 +1,32 @@
 :root {
+  /** variabili di base */
   --unit: 4px;
   --font-small: 20px;
   --weight-big: 400;
   --default-line-height: 1.5;
   --default-font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   --color-yellow: #ffde59;
-  --color-dark: #242424;
+  --color-darkgray: #cccccc;
 
   font-family: var(--default-font-family);
   line-height: var(--default-line-height);
   font-size: var(--font-small);
+
+  /** variabili semaptihe */
+  --background-light: var(--color-yellow);
+  --background-dark: var(--color-darkgray);
+}
+
+.sensorario.container {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  &.light {
+    background-color: var(--background-light);
+  }
+  &.dark {
+    background-color: var(--background-dark);
+  }
 }
