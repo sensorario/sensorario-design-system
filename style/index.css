@@ -30,7 +30,7 @@ h1 {
 button,
 label,
 input {
-  font-size: --font-l;
+  font-size: var(--font-l);
   padding: calc(var(--unit) * 2);
   border-radius: calc(var(--unit) * 5);
   border-width: 1px;
