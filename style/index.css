@@ -1,8 +1,13 @@
 :root {
   /** variabili di base */
   --unit: 4px;
-  --font-small: 20px;
-  --font-x: 40px;
+
+  --font-s: 20px;
+  --font-m: 24px;
+  --font-l: 28px;
+  --font-x: 34px;
+  --font-xl: 40px;
+
   --weight-big: 400;
   --default-line-height: 1.5;
   --default-font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -11,7 +16,7 @@
 
   font-family: var(--default-font-family);
   line-height: var(--default-line-height);
-  font-size: var(--font-small);
+  font-size: var(--font-s;
 
   /** variabili semaptihe */
   --background-light: var(--color-yellow);
@@ -22,13 +27,19 @@ h1 {
   font-size: var(--font-x);
 }
 
-button {
-  font-size: 30px;
-  padding: 10px;
-  border-radius: 20px;
-  box-shadow: 2px 2px 8px #795548;
+button,
+label,
+input {
+  font-size: --font-l;
+  padding: calc(var(--unit) * 2);
+  border-radius: calc(var(--unit) * 5);
   border-width: 1px;
   border-color: #000002;
+  margin: var(--unit);
+}
+
+button {
+  box-shadow: 2px 2px 8px #795548;
 }
 
 .sensorario-container {
