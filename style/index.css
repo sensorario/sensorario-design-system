@@ -40,6 +40,9 @@ input {
 
 button {
   box-shadow: 2px 2px 8px #795548;
+  :hover {
+    cursor: pointer;
+  }
 }
 
 .sensorario-container {
