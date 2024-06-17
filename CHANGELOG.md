@@ -7,3 +7,4 @@
  - input component
  - button component
  - basic css
+ - add basic .gitignore file

@@ -6,7 +6,7 @@ How to install.
 npm i sensorario-design-system
 ```
 
-How to use.
+How to use it.
 
 ```TypeScript
 import "sensorario-design-system/style/index.css";
