@@ -71,8 +71,3 @@ button:hover {
     background-color: var(--background-dark);
   }
 }
-
-.flex-wrap {
-  display: flex;
-  flex-wrap: wrap;
-}

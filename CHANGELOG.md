@@ -8,4 +8,3 @@
 - button component
 - basic css
 - add basic .gitignore file
-- add basic grid system with flex
