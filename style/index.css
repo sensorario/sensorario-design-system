@@ -71,3 +71,7 @@ button:hover {
     background-color: var(--background-dark);
   }
 }
+
+.flex {
+  display: flex;
+}
