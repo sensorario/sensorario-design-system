@@ -72,35 +72,7 @@ button:hover {
   }
 }
 
-/* Colonne */
-.container {
+.flex-wrap {
   display: flex;
   flex-wrap: wrap;
-}
-
-.container > div {
-  border: 1px solid #ddd;
-  padding: 20px;
-  background-color: #f4f4f4;
-  text-align: center;
-  margin: 5px 0;
-}
-
-.col-1 {
-  flex: 0 0 8%;
-}
-.col-2 {
-  flex: 0 0 16%;
-}
-.col-3 {
-  flex: 0 0 25%;
-}
-.col-4 {
-  flex: 0 0 33%;
-}
-.col-4 {
-  flex: 0 0 50%;
-}
-.col-8 {
-  flex: 0 0 66%;
 }
