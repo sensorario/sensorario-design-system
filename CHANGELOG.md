@@ -8,3 +8,4 @@
 - button component
 - basic css
 - add basic .gitignore file
+- add button stiles
