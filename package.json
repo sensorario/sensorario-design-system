@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "react": "^19.0.0-rc-cc1ec60d0d-20240607"
+    "react": "^19.0.0-rc-8971381549-20240625"
   }
 }
