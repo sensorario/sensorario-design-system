@@ -3,10 +3,7 @@
   "version": "1.0.15",
   "description": "A very very small collection of css and components for the React, TypeScript and Next.js book.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "author": "Simone Gentili <sensorario@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "react": "^19.0.0-rc-8971381549-20240625"
