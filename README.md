@@ -11,3 +11,7 @@ How to use it.
 ```TypeScript
 import "sensorario-design-system/style/index.css";
 ```
+
+
+
+[npm package](https://www.npmjs.com/package/sensorario-design-system)
