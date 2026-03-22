@@ -1,8 +1,12 @@
 {
   "name": "sensorario-design-system",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "A very very small collection of css and components for the React, TypeScript and Next.js book.",
   "main": "index.js",
+  "scripts": {
+    "demo": "npm --prefix demo run dev",
+    "demo:build": "npm --prefix demo run build"
+  },
   "author": "Simone Gentili <sensorario@gmail.com>",
   "license": "ISC",
   "devDependencies": {

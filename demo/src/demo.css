@@ -1,0 +1,133 @@
+:root {
+  color-scheme: light;
+}
+
+body {
+  min-height: 100%;
+  background: linear-gradient(145deg, #f8fafc, #e2e8f0);
+}
+
+.demo-shell {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+  gap: 16px;
+  width: min(1200px, 100% - 32px);
+  margin: 24px auto;
+}
+
+.demo-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: stretch;
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid #cbd5e1;
+  background-color: #ffffff;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+.demo-sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 16px;
+}
+
+.demo-menu-item {
+  all: unset;
+  display: block;
+  border-radius: 8px;
+  padding: 8px 10px;
+  color: #0f172a;
+  cursor: pointer;
+}
+
+.demo-menu-item:hover {
+  background-color: #e2e8f0;
+}
+
+.demo-menu-item.is-active {
+  background-color: #dbeafe;
+  color: #1d4ed8;
+  font-weight: 600;
+}
+
+.demo-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid #cbd5e1;
+  background-color: #ffffff;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+.demo-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.demo-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 8px;
+}
+
+.demo-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  background-color: #f8fafc;
+}
+
+.demo-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.demo-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.demo-note {
+  font-size: 16px;
+  color: #334155;
+}
+
+kbd {
+  border: 1px solid #94a3b8;
+  border-bottom-width: 2px;
+  border-radius: 6px;
+  padding: 0 6px;
+  background-color: #ffffff;
+}
+
+.demo-code {
+  margin: 0;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  background-color: #0f172a;
+  color: #e2e8f0;
+  font-size: 14px;
+  line-height: 1.45;
+  overflow-x: auto;
+}
+
+@media (max-width: 900px) {
+  .demo-shell {
+    grid-template-columns: 1fr;
+  }
+}

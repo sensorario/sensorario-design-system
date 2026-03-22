@@ -12,7 +12,9 @@
   --default-line-height: 1.5;
   --default-font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   --color-yellow: #ffde59;
+  --color-dark-yellow: #fbbf24;
   --color-darkgray: #cccccc;
+  --color-black: #000000§;
 
   font-family: var(--default-font-family);
   line-height: var(--default-line-height);
@@ -21,6 +23,19 @@
   /** variabili semaptihe */
   --background-light: var(--color-yellow);
   --background-dark: var(--color-darkgray);
+
+  /** button tokens */
+  --button-primary-bg: var(--color-yellow);
+  --button-primary-fg: var(--color-black);
+  --button-primary-bg-hover: var(--color-dark-yellow);
+
+  --button-secondary-bg: #ffffff;
+  --button-secondary-fg: #111827;
+  --button-secondary-bg-hover: #f3f4f6;
+
+  --button-border-color: #000002;
+  --button-focus-ring: #2563eb;
+  --button-disabled-bg: #d1d5db;
 }
 
 * {
@@ -52,6 +67,43 @@ button:hover {
 }
 button:active {
   box-shadow: 1px 1px 2px #795548;
+}
+
+.sensorario-button {
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--button-border-color);
+  transition: background-color 160ms ease-in-out, box-shadow 120ms ease-in-out,
+    transform 120ms ease-in-out;
+}
+
+.sensorario-button:focus-visible {
+  outline: 3px solid var(--button-focus-ring);
+  outline-offset: 2px;
+}
+
+.sensorario-button:disabled {
+  background-color: var(--button-disabled-bg);
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.sensorario-button--primary {
+  background-color: var(--button-primary-bg);
+  color: var(--button-primary-fg);
+}
+
+.sensorario-button--primary:hover:not(:disabled) {
+  background-color: var(--button-primary-bg-hover);
+}
+
+.sensorario-button--secondary {
+  background-color: var(--button-secondary-bg);
+  color: var(--button-secondary-fg);
+}
+
+.sensorario-button--secondary:hover:not(:disabled) {
+  background-color: var(--button-secondary-bg-hover);
 }
 
 .sensorario-container {
